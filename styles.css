@@ -1,3 +1,9 @@
+
+/* Selector de tipo */
+p {
+    color: blue;
+}
+
 h2 {
     color: green;
     font-family: 'Courier New', Courier, monospace;
@@ -8,3 +14,43 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 26px;
 }
+
+form {
+    background-color: coral;
+    padding: 30px;
+}
+
+label {
+    font-size: large;
+    margin-right: 10px;
+    
+}
+
+/* Selector de clase */
+.resaltado {
+    background-color: yellow;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Seleccionador de ID */
+#titulo {
+    font-size: 2em;
+    text-align: center;
+}
+
+#riverplate {
+    color: black;
+}
+
+/* Seleccionador de atributo */
+input[type="text"] {
+    border: 2px solid red;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+} 
+
