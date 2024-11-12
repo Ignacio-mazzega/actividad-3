@@ -1,8 +1,5 @@
 
 /* Selector de tipo */
-p {
-    color: blue;
-}
 
 h2 {
     color: green;
@@ -23,7 +20,33 @@ form {
 label {
     font-size: large;
     margin-right: 10px;
-    
+}
+
+header{
+    border: 2px solid black;
+}
+
+main {
+    border: 2px solid blue;
+}
+
+footer {
+    border: 2px solid blue;
+}
+
+section {
+    border: 2px solid red;
+}
+
+article{
+    border: 2px solid black;
+}
+
+aside {
+    border: 5px solid gray;
+    padding: 30px;
+    width: 300px;
+    margin-left: 1200px;
 }
 
 /* Selector de clase */
