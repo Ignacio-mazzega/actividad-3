@@ -1,9 +1,8 @@
-
 /* Selector de tipo */
 
 h2 {
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
     font-size: 32px;
 }
 
@@ -22,8 +21,9 @@ label {
     margin-right: 10px;
 }
 
-header{
+header {
     border: 2px solid black;
+    padding: 10px;
 }
 
 main {
@@ -38,9 +38,6 @@ section {
     border: 2px solid red;
 }
 
-article{
-    border: 2px solid black;
-}
 
 aside {
     border: 5px solid gray;
@@ -49,6 +46,14 @@ aside {
     margin-left: 1200px;
 }
 
+body {
+    background-color: #FEF3E2;
+}
+
+a{
+    margin-left: 20px;
+    padding: 20px;
+}
 /* Selector de clase */
 .resaltado {
     background-color: yellow;
@@ -58,6 +63,18 @@ aside {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.equipos {
+    border: none;
+    padding: 10px;
+}
+
+.enlacesdenavegacion {
+    border: none;
+}
+
+.main {
+    border: none;
+}
 /* Seleccionador de ID */
 #titulo {
     font-size: 2em;
@@ -68,6 +85,18 @@ aside {
     color: black;
 }
 
+#copas {
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+}
+
+#estadios {
+    border: none;
+}
+
 /* Seleccionador de atributo */
 input[type="text"] {
     border: 2px solid red;
@@ -75,5 +104,4 @@ input[type="text"] {
 
 input[type="text"] {
     border: 2px solid black;
-} 
-
+}
