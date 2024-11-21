@@ -1,60 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi página web semántica</title>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Los 5 grandes del fútbol argentino</h1>
-
-        <nav>
-            <ul>
-                <li><a href="#river">River Plate</a></li>
-                <li><a href="#boca">Boca Juniors</a></li>
-                <li><a href="#independiente">Independiente</a></li>
-                <li><a href="#racing">Racing Club</a></li>
-                <li><a href="#sanlorenzo">San Lorenzo</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >INICIO</a
+            >
+          </li>
+          <br />
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">FORMULARIO</a>
+          </li>
+          <br />
+          
+          <li class="nav-item">
+            <a class="nav-link" href="enlaces_navegacion.html"
+              >ENLACES DE NAVEGACIÓN</a
+            >
+          </li>
+          <br />
+          <li class="nav-item">
+            <a class="nav-link" href="selectores.html">SELECTORES</a>
+          </li>
+          <br />
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="copas">
-            <h2>Copas</h2>
-            <p>Aquí se verán los trofeos de cada club</p>
-        </section>
-        <section id="estadios">
-            <h2>Estadios</h2>
-            <article>
-                <h3>Monumental</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum natus nam culpa dolorum minus,
-                    aliquid esse? Ducimus quis nostrum illo necessitatibus? Nemo nisi a exercitationem quasi numquam
-                    nulla architecto praesentium.</p>
-            </article>
-            <article>
-                <h3>Bombonera</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum natus nam culpa dolorum minus,
-                    aliquid esse? Ducimus quis nostrum illo necessitatibus? Nemo nisi a exercitationem quasi numquam
-                    nulla architecto praesentium.</p>
-            </article>
-        </section>
-        <aside>
-            <h2> Noticias </h2>
-            <p>Contenido</p>
-        </aside>
+      <br>
+      <h1>EQUIPOS DE FÚTBOL ARGENTINO</h1>
+      <hr />
+      <section id="riverplate">
+        <h3>RIVER PLATE</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto a
+          illo impedit minima porro accusamus aspernatur distinctio temporibus
+          voluptatum nulla nobis, vel aut quae in magnam, totam dolorem
+          voluptatem. At! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Veniam harum nostrum ratione doloremque praesentium maxime
+          voluptas perspiciatis fuga ipsam a, cum, labore cumque ex, alias
+          incidunt est similique ullam voluptate.
+        </p>
+        <article><a href="https://lapaginamillonaria.com/" target="_blank">Web oficial de River Plate</a></article>
+      </section>
+      <hr>
+      <section id="bocajuniors">
+        <h3>BOCA JUNIORS</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto a
+          illo impedit minima porro accusamus aspernatur distinctio temporibus
+          voluptatum nulla nobis, vel aut quae in magnam, totam dolorem
+          voluptatem. At! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Veniam harum nostrum ratione doloremque praesentium maxime
+          voluptas perspiciatis fuga ipsam a, cum, labore cumque ex, alias
+          incidunt est similique ullam voluptate.
+        </p>
+        <article><a href="https://www.bocajuniors.com.ar/" target="_blank">Web oficial de Boca Juniors</a></article>
+      </section>
+      <hr>
+      <section id="independiente">
+        <h3>INDEPENDIENTE</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto a
+          illo impedit minima porro accusamus aspernatur distinctio temporibus
+          voluptatum nulla nobis, vel aut quae in magnam, totam dolorem
+          voluptatem. At! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Veniam harum nostrum ratione doloremque praesentium maxime
+          voluptas perspiciatis fuga ipsam a, cum, labore cumque ex, alias
+          incidunt est similique ullam voluptate.
+        </p>
+        <article><a href="https://clubaindependiente.com.ar/" target="_blank">Web oficial de Independiente</a></article>
+      </section>
+      <hr>
+      <section id="racingclub">
+        <h3>RACING CLUB</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto a
+          illo impedit minima porro accusamus aspernatur distinctio temporibus
+          voluptatum nulla nobis, vel aut quae in magnam, totam dolorem
+          voluptatem. At! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Veniam harum nostrum ratione doloremque praesentium maxime
+          voluptas perspiciatis fuga ipsam a, cum, labore cumque ex, alias
+          incidunt est similique ullam voluptate.
+        </p>
+        <article><a href="https://www.racingclub.com.ar/" target="_blank">Web oficial de Racing Club</a></article>
+      </section>
+
+      <aside>
+        <h2>OTROS EQUIPOS</h2>
+        <ul>
+            <li>SAN LORENZO</li>
+            <li>VELEZ SARSFIELD</li>
+            <li>ESTUDIANTES DE LA PLATA</li>
+            <li>ROSARIO CENTRAL</li>
+            <li>NEWELL'S OLD BOYS</li>
+            <li>HURACAN</li>
+        </ul>
+      </aside>
     </main>
 
-    <hr>
-
     <footer>
-        <p>&copy; 2024 Mi sitio web. Todos los derechos reservados</p>
+        <p>&copy; 2024 Equipos de Fútbol Argentino | Todos los derechos reservados.</p>
     </footer>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

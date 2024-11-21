@@ -1,5 +1,9 @@
 /* Selector de tipo */
 
+h1{
+    text-align: center;
+}
+
 h2 {
     color: black;
     font-family: 'Times New Roman', Times, serif; 
@@ -12,7 +16,6 @@ h3 {
 }
 
 form {
-    background-color: coral;
     padding: 30px;
 }
 
@@ -22,29 +25,26 @@ label {
 }
 
 header {
-    border: 2px solid black;
+} 
+
+main {
+} 
+
+footer {
+    text-align: center;
     padding: 10px;
 }
 
-main {
-    border: 2px solid blue;
-}
-
-footer {
-    border: 2px solid blue;
-}
-
 section {
-    border: 2px solid red;
+    text-align: center;
+    padding: 20px;
 }
 
 
 aside {
-    border: 5px solid gray;
-    padding: 30px;
-    width: 300px;
-    margin-left: 1200px;
-}
+    padding: 15px;
+    width: 250px;
+} 
 
 body {
     background-color: #FEF3E2;
@@ -54,6 +54,16 @@ a{
     margin-left: 20px;
     padding: 20px;
 }
+
+table {
+    width: 100%;
+}
+
+nav{
+    background-color: aqua;
+    padding: 10px;
+}
+
 /* Selector de clase */
 .resaltado {
     background-color: yellow;
@@ -61,6 +71,7 @@ a{
 
 .titulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
 }
 
 .equipos {
@@ -74,6 +85,20 @@ a{
 
 .main {
     border: none;
+}
+
+.clubes {
+    text-align: center;
+    border: none;
+}
+
+.tabla-comp{
+    text-align: center;
+    border: none;
+}
+
+.idolos{
+    width: 250px;
 }
 /* Seleccionador de ID */
 #titulo {
@@ -98,10 +123,16 @@ a{
 }
 
 /* Seleccionador de atributo */
-input[type="text"] {
-    border: 2px solid red;
-}
+
 
 input[type="text"] {
-    border: 2px solid black;
+    width: 300px;
+}
+
+input[type="password"] {
+    width: 300px;
+}
+
+input[type="email"] {
+    width: 300px;
 }
