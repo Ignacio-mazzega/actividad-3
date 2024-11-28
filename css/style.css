@@ -1,0 +1,63 @@
+/* Reseteo básico */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estructura del contenedor principal */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+/* Estilo de cada sección */
+header, nav, footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+/* Área principal */
+section {
+    flex: 2;
+    background-color: #6EC6FF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Aside */
+aside {
+    flex: 1;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}

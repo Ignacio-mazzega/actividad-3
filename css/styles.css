@@ -28,6 +28,7 @@ header {
 } 
 
 main {
+
 } 
 
 footer {
@@ -42,12 +43,17 @@ section {
 
 
 aside {
-    padding: 15px;
-    width: 250px;
 } 
 
 body {
-    background-color: #FEF3E2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
 }
 
 a{
